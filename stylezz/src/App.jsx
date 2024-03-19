@@ -1,13 +1,16 @@
 //click event = an interaction when a user click on a specific element
 // we can respond to click by passing a callback to the onClick event handler
-
+import Button from "./Button";
 
 function App() {
- 
+  return (
+    <>
+      <Button />
+    </>
+  );
 }
 
 export default App;
-
 
 //render the list in react
 
@@ -41,9 +44,6 @@ export default App;
 // }
 
 // export default App;
-
-
-
 
 //conditional rendering = allows you to contro what gets rendered
 // in your application based on certain condition(show, hide or change component)
