@@ -6,15 +6,14 @@
 //[name, setName]
 // if we update this variable it will refect in virtual dom
 
-//import MyComponent from "./MyComponent";
-import Counter from "./Counter";
-
+import MyComponent from "./MyComponent";
+//import Counter from "./Counter";
 
 function App() {
   return (
     <>
-      {/* <MyComponent /> */}
-      <Counter/>
+      <MyComponent />
+      {/* <Counter/> */}
     </>
   );
 }
